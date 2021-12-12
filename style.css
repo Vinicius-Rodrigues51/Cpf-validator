@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 1px solid black;
+    padding: 50px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+#cpf.ativo {
+    border: 1px solid red;
+}
+
+#cpf.valido {
+    border: 1px solid green;
+}
+
+span {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: red;
+    display: none;
+}
+
+span.ativo {
+    display: block;
+}
